@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13139605846",
+    "project_id": "writer-profile",
+    "storage_bucket": "writer-profile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13139605846:android:72891ad5b2bb59eb993ef7",
+        "android_client_info": {
+          "package_name": "com.writer_profile.writer_profile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA49-SZC570OIlV2r89ZIQ9GsMrdaLwk-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

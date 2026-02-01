@@ -1,0 +1,39 @@
+name: writer_profile
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.2
+  syncfusion_flutter_pdfviewer: ^32.1.24
+  firebase_core: ^3.10.0
+  cloud_firestore: ^5.6.0
+  image_picker: ^1.0.7
+  firebase_storage: 12.4.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # This single line is enough to include all images and sub-folders
+
+  assets:
+    - assets/images/profile.jpg  # আপনার ইমেজের এক্সটেনশন (.jpg বা .png) চেক করে নিন
+    - assets/images/cover.jpg
+    - assets/images/cover 3.jpg
+    - assets/images/book/
+    - assets/images/gallery/
+    - assets/images/kobita/
+    - assets/pdfs/my_book.pdf
